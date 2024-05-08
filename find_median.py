@@ -9,7 +9,7 @@ def find_median(numbers):
     length = len(numbers)
     middle = length // 2
     if length % 2 == 0:
-        median = (sorted_numbers[middle - 1] + sorted_numbers[middle])
+        median = (sorted_numbers[middle - 1] + sorted_numbers[middle])/2
     else:
         median = (sorted_numbers[middle])
     return median
