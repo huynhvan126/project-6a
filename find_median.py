@@ -1,8 +1,9 @@
 # Author: Van Huynh
 # GitHub username: huynhvan126
 # Date: 05/08/2024
-# Description:
+# Description: find the median of a list of numbers.
 def find_median(numbers):
+    """This function finds the median of a list of numbers."""
     if not numbers:
         return None
     sorted_numbers = sorted (numbers)
